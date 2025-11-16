@@ -3,7 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}
- >  <Text>Edit app/index.tsx to edit this screen.Dileepa </Text>
+ >  <Text style={styles.content}>Hello World! </Text>
+ 
     </View>
   );
 }
@@ -12,10 +13,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "black",
+    gap: 20,
    },
    content: {
-    fontSize: 29,
-    color: "white",
+    fontSize: 15,
     }
   });
